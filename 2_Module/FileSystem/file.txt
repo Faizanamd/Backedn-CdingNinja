@@ -1,0 +1,3 @@
+THis is a file first line
+this is another line for reading
+This is also a line of third 
