@@ -1,0 +1,25 @@
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+</head>
+<body> -->
+    <div class="container p-5 gap-2 d-flex flex-wrap">
+        <% if (searchResults.length === 0) { %>
+            <h1 style="color: red">OOP! No products match your search were found</h1>
+        <% } else { %>
+            <% searchResults.forEach((product) => { %>
+                <div class="card" style="width: 18rem">
+                    <img src="<%= product.image %>" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text"><%= product.name %></p>
+                    </div>
+                </div>
+            <% }) %>
+        <% } %>
+    </div>
+<!-- </body>
+</html> -->

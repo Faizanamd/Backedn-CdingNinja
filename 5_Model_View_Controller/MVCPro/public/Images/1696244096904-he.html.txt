@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faizan Ahmad - B.tech Student</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #3498db;
+            color: #ffffff;
+            text-align: center;
+            padding: 2em 0;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2em;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #3498db;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Faizan Ahmad</h1>
+        <p>B.tech Student</p>
+    </div>
+    <div class="content">
+        <h2>About Me</h2>
+        <p>Hello! I'm Faizan Ahmad, a passionate B.tech student with a keen interest in technology and innovation. I love to learn and explore new concepts in the world of engineering.</p>
+        
+        <h2>Education</h2>
+        <p>I am currently pursuing my Bachelors in Technology, focusing on [Your Major/Field] at [Your University/College]. I am enthusiastic about honing my skills and contributing to the technological advancements of the future.</p>
+        
+        <h2>Contact Information</h2>
+        <p>You can reach me at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2023 Faizan Ahmad. All rights reserved.</p>
+    </div>
+</body>
+</html>

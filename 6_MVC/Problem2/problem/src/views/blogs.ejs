@@ -1,0 +1,29 @@
+<!-- // Write your code here -->
+
+
+
+<h2 mx-3>Blogs</h2>
+<div class="mainPart d-flex flex-wrap">
+    <% blogs.forEach(blog => { %>
+        <div class="box col-4 m-5 ">
+            <div class="innerPart d-flex"
+                style="border: 2px solid black; border-radius: 15px; box-shadow: 2px 2px 1px 5px #b8b2b2;">
+                <img src=" <%= blog.img %>" style="width: 100px; margin-right: 5px; image-rendering: auto;" alt="">
+                <div>
+                    <h2>
+                        <%= blog.title %>
+                    </h2>
+                    <p>
+                        <%= blog.description %>
+                    </p>
+                </div>
+            </div>
+        </div>
+    <% }); %>
+    
+
+
+
+
+
+</div>
